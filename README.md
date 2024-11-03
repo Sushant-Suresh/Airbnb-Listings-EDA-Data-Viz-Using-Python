@@ -54,10 +54,14 @@ The dataset contains **20,770 rows and 22 fields**, including:
 
 6. **Geographic Distribution of Airbnb Listings**:
    - Used scatterplot to vizualize Airbnb locations using their longitude and latitude values.
-   - Found out Hotel Rooms were extremely less and majority of the room types were either Private or Entire Home.
+   - Found out Hotel Rooms were very less and majority of the room types were either Private or Entire Home.
 
 ## Key Findings and Insights
-
+1. Manhattan has the most expensive listings (mostly Hotel Rooms), followed by Brooklyn.
+2. Majority of the listings have guest ratings > 4.
+3. Few listings priced at $10,000+ were detected and were filtered out.
+4. There are high chances of guests getting a good stay under 250$.
+5. Entire homes/apartments cost significantly more than private or shared rooms.
 
 ## Conclusion
 This project offers valuable insights into the New York Airbnb listings, helping both guests and hosts make informed decisions. By using **EDA techniques**, we identified key trends and developed actionable recommendations. Future improvements can involve advanced analytics and predictive modeling to further enhance the findings.
