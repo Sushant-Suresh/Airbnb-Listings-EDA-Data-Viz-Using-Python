@@ -1,6 +1,6 @@
 # Airbnb Listings EDA & Data Viz Project: New York
 
-![airbnb](https://github.com/user-attachments/assets/d398a6cc-0fda-497c-ba56-af43db453aa4)
+![Renting-out-on-Air-BnB-980x655](https://github.com/user-attachments/assets/13abc58f-626a-4c0c-837c-16ecf451f186)
 
 ## Project Overview
 This project performs **Exploratory Data Analysis (EDA)** on New York Airbnb data to uncover trends and patterns in rental listings using libraries like **Pandas, Numpy, Matplotlib, Seaborn** for cleaning, visualization, and analysis. 
@@ -29,16 +29,16 @@ The dataset contains **20,770 rows and 22 fields**, including:
 ### 1. Data Cleaning
 - **Handle missing data**: Dropped all NULL values from the dataframe.
 - **Handle duplicate entries**: Dropped all duplicate entries from the dataframe.
-- **Remove outliers**: Listings with price > $2,000 were capped to avoid skewed visualizations.
+- **Remove outliers**: Listings with **price > $2,000** were capped to avoid skewed visualizations.
 
 ### 2. EDA & Data Visualization
 1. **Price distribution**: 
    - Visualized the price distribution after removing potential outliers using histogram.
-   - Identified rent < 250$ as the most common rental price range.
+   - Identified **rent < 250$** as the most common rental price range.
 
 2. **Rating Distribution**:
    - Analyzed ratings given by guests.
-   - Ratings >4 had the max. frequency.
+   - **Ratings > 4** had the max. frequency.
 
 3. **Price Distribution Across Neighbourhood**:
    - Used barplot to show rent across differnet areas in New York.
@@ -50,7 +50,7 @@ The dataset contains **20,770 rows and 22 fields**, including:
 
 5. **Relationship between Price and Ratings**:
    - Used scatterplot to show the relationship between rental price and ratings given by guests.
-   - Ratings > 4 were observed as the rent increased.
+   - **Ratings > 4** were common for listings with high rental.
 
 6. **Geographic Distribution of Airbnb Listings**:
    - Used scatterplot to vizualize Airbnb locations using their longitude and latitude values.
@@ -60,4 +60,4 @@ The dataset contains **20,770 rows and 22 fields**, including:
 
 
 ## Conclusion
-This project offers valuable insights into the New York Airbnb market, helping both guests and hosts make informed decisions. By using **EDA techniques**, we identified key trends and developed actionable recommendations. Future improvements can involve advanced analytics and predictive modeling to further enhance the findings.
+This project offers valuable insights into the New York Airbnb listings, helping both guests and hosts make informed decisions. By using **EDA techniques**, we identified key trends and developed actionable recommendations. Future improvements can involve advanced analytics and predictive modeling to further enhance the findings.
